@@ -11,8 +11,8 @@
 ## HTML (Hyper Text Markup Language)
 하이퍼텍스트를 마크업 언어로 정의한 웹문서
 
-Hyper Text = 웹문서를 이루고있는 요소하나하나를 하이퍼텍스트라고한다.<br>
-Markup Language = 문서가 화면에 표시되는 형식을 나타내거나 구조를 명시하기위한 규칙들을 정의한언어  
+- `Hyper Text` = 웹문서를 이루고있는 요소하나하나를 하이퍼텍스트라고한다.<br>
+- `Markup Language` = 문서가 화면에 표시되는 형식을 나타내거나 구조를 명시하기위한 규칙들을 정의한언어  
 
 
  <span style="color : #fff5b1"> ⚡마크업언어와 프로그래밍언어의 차이?</span>
@@ -122,12 +122,12 @@ Markup Language = 문서가 화면에 표시되는 형식을 나타내거나 구
 ## Html 태그
 `<h1~h6>`&nbsp;:&nbsp;&nbsp;제목을 정의할때 사용된다. 
 
-<b style="font-size: 32px; ">h1</b>
-<b style="font-size: 24px; ">h1</b>
-<b style="font-size: 19px; ">h1</b>
-<b style="font-size: 16px; ">h1</b>
-<b style="font-size: 12px; ">h1</b>
-<b style="font-size: 10px; ">h1</b>
+# H1 
+## H2 
+### H3 
+#### H4 
+##### H5 
+###### H6
 
 ```html
 <h1>h1</h1>
@@ -406,7 +406,9 @@ b머리가 아래에 가있어서 아래첨자요소
 `<sup>`&nbsp;:&nbsp;&nbsp;거듭제곱의 표시 또는 서수표기시 사용
 - 위첨자 요소 / 작게 위쪽에 표시됨
 
+2²
 ```html
+<p>2<sup>2</sup></p>
 ```
 
 <hr>
@@ -414,15 +416,20 @@ b머리가 아래에 가있어서 아래첨자요소
 `<sub>`&nbsp;:&nbsp;&nbsp;화학식의 원소수표기 , 수학에서의 변수표기시 사용
 - 아래첨자요소 / 작게 아래쪽에 표시됨
 
+H₂O
 ```html
+<p>H<sub>2</sub>O</p>
 ```
 
 <hr>
 
 `<del>`&nbsp;:&nbsp;&nbsp;제거된 텍스트의 범위표시
-- 가운데에 취소선으로 표시됨 
+- 가운데에 취소선으로 표시됨
+
+<del>가운데 취소선</del>
 
 ```html
+<del>가운데 취소선</del>
 ```
 
 <hr>

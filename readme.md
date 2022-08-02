@@ -632,6 +632,24 @@ href 속성 사용시 경로는 2가지 유형으로 작성가능하다
 ~ 코드내용 ~
 \`\`\`
 
+- `접기/펼치기 만들기`
+<details>
+<summary>접기/펼치기</summary>
+<div markdown="1">
 
+div 에 markdown attribute 를 1 로 
+하는 이유 -> div 안에서 markdown 을 사용하기 위해서 지정함
 
+</div>
+</details>
 
+```html
+<details>
+<summary>접기/펼치기</summary>
+<div markdown="1">
+
+ *내용
+
+</div>
+</details>
+```

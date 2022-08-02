@@ -625,7 +625,11 @@ href 속성 사용시 경로는 2가지 유형으로 작성가능하다
 - `임베디드 콘텐츠(Embedded Content)`&nbsp;:&nbsp;&nbsp;이미지나 비디오 등 외부 소스를 가져오거나 삽입할 때 사용되는 요소 / 내장 콘텐츠
 - `인터랙티브 콘텥츠(Interactive Content)`&nbsp;:&nbsp;&nbsp;사용자와의 상호작용을 위한 컨텐츠 요소 / 대화형 콘텐츠
 
+## 마크다운 작성문법정리
 
+- `코드삽입`
+```+(사용언어 ex) javascript, html)
+```
 
 
 
